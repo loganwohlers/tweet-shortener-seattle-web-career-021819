@@ -24,6 +24,8 @@ end
 def shortened_tweet_truncator (s)
   if(s.length>140)
     s=s[0..139]
+    s[137]
+    
     s
   else
     s
